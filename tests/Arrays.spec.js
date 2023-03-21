@@ -1,0 +1,10 @@
+const expect = require('chai').expect;
+
+describe('Array', ()=> {
+    describe('#sort', ()=>{
+        it('Should sort array by name', ()=>{
+            var names = ['Dani', 'Moshe', 'Adam']
+            expect(names.sort()).to.be.eql(['Adam', 'Dani', 'Moshe'])
+        });
+    });
+});
